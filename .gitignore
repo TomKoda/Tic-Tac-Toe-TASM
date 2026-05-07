@@ -1,0 +1,23 @@
+# --- Binarios y Objetos ---
+*.obj
+*.exe
+*.com
+*.map
+*.lst
+
+# --- Archivos Temporales ---
+*.tmp
+*.bak
+*.log
+
+# --- Salidas de DOSBox ---
+stdout.txt
+stderr.txt
+
+# --- Configuraciones Locales / IDE ---
+.vscode/
+.idea/
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
