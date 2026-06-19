@@ -1,18 +1,17 @@
 @echo off
 cls
 
-tasm tateti\soundi.asm tateti\soundi
-tlink /t tateti\soundi.obj, tateti\soundi
-tateti\soundi
+tasm soundi.asm soundi
+tlink /t soundi.obj, soundi
+soundi
 
 pause >nul
 cls
 
-tasm tateti\tateti.asm tateti\tateti
-tasm tateti\Ltateti.asm tateti\Ltateti
-tlink tateti\tateti.obj tateti\Ltateti.obj, tateti\tateti.exe
+tasm tateti.asm tateti
+tasm Ltateti.asm Ltateti
+tlink tateti.obj Ltateti.obj, tateti.exe
 
 echo ENTER para ejecutar ...
 pause >nul
-tateti\tateti.exe
-
+tateti.exe
